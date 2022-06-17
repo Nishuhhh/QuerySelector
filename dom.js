@@ -1,11 +1,8 @@
-//console.dir(document) ;
+var items = document.getElementsByClassName('list-group-item');
+items[2].style.backgroundColor = 'green' ;
 
-
-//console.log(document.getElementById('header-title'));
-//var headertitle = document.getElementById('header-title') ;
-//var header = document.getElementById('main-header') ;
-//hconsole.log(headertitle);
-//header.style.font= 'solid 3px #000';
-var tt = document.querySelector('h2');
-tt.style.font = 'solid 3px ###2';
-tt.style.color = "green";
+for(var i=0 ; i<items.length ; i++)
+{
+    items[i].style.fontWeight = '900' ;
+    items[i].style.color = 'pink' ;
+}
