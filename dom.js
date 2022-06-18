@@ -11,6 +11,18 @@
 //tt.style.color = "green";
 
 
-var items = document.getElementsByTagName('l1') ;
-items.style.backgroundColor = "red" ;
+//var items = document.getElementsByTagName('l1') ;
+//items.style.backgroundColor = "red" ;
+// var seconditem = document.querySelector
+ //('.list-group-item:nth-child(2)') ;
+ //seconditem.style.backgroundColor = 'green' ;
+
+ //var thirditem = document.querySelector
+ //('.list-group-item:nth-child(3)') ;
+ //thirditem.style.display = 'none' ;
+
+
+ var change = document.querySelectorAll('.li(2)') ;
+ change.style.color = "yellow" ;
+
 
